@@ -74,40 +74,30 @@ Verifiy Trivy installation: trivy --version
 
 8. Install Docker Scout
 Make sure to Login to DockerHub account in browser
-<Follow the process as explained in the video>
+
 
 9. Install SonarQube using Docker
 $ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 $ docker ps (You can see SonarQube container)
 
-<Follow the process as explained in the video>
 
 10. Installation of Plugins in Jenkins
 Install below plugins:
-<Follow the process as explained in the video>
 
 11. SonarQube configuration in Jenkins
-<Follow the process as explained in the video>
 
 11.1. Tools Configuration in Jenkins
-<Follow the process as explained in the video>
 
 11.2. Configuration of SonarQube Token in Jenkins
-<Follow the process as explained in the video>
 
 Lets create another credentials for DockerHub. This is being done because, as soon as the docker image is created, it should get pushed to dockerhub. 
-<Follow the process as explained in the video>
 
 11.3 Configuration of Email notification in Jenkins
 As soon as the build happens, i need to get an email notification to do that we have to configure our email.
-<Follow the process as explained in the video>
-
 
 12. System Configuration in Jenkins
-<Follow the process as explained in the video>
 
 13. Create webhook in SonarQube
-<Follow the process as explained in the video>
 
 14. Create Pipeline Job
 Before pasting the pipeline script, do the following changes in the script
